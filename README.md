@@ -1,4 +1,4 @@
-# HER DAO Member Registry 🌐
+# H.E.R. DAO Venezuela 🇻🇪 Member Registry 🌐
 
 > On-chain member registry for H.E.R. DAO Venezuela 🇻🇪 — built on Solana using Rust and Anchor. A decentralized way to register, update and manage community members without intermediaries.
 
@@ -184,4 +184,5 @@ H.E.R. DAO Venezuela 🇻🇪 es una comunidad enfocada en mujeres en tecnologí
 ## Author
 
 **Arlette Salas** — Founder, H.E.R. DAO Venezuela 🇻🇪
+
 Solana Developer Certification — WayLearn Bootcamp 2026
