@@ -122,5 +122,5 @@ HER DAO Venezuela es una comunidad enfocada en mujeres en tecnología y blockcha
 
 ## Author
 
-**Arlette Salas** — Founder, HER DAO Venezuela  
-Solana Developer Certification — WayLearn Bootcamp 2025
+**Arlette Salas** — Founder, H.E.R. DAO Venezuela  
+Solana Developer Certification — WayLearn Bootcamp 2026
