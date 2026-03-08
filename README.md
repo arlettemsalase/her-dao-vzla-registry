@@ -45,6 +45,19 @@ A decentralized member registry built on the Solana blockchain. Each member prof
 | `update_member` | Updates name, role, and bio |
 | `delete_member` | Deactivates the member (sets active = false) |
 
+### 🔄 Program Flow
+```mermaid
+flowchart TD
+    A(User with Wallet) --> B[initialize_registry]
+    B --> C[create_member]
+    C --> D{Modify profile?}
+    D -->|Yes| E[update_member]
+    D -->|No| F{Leave?}
+    E --> F
+    F -->|Yes| G[delete_member]
+    F -->|No| C
+```
+
 ### Account Structure
 
 ```rust
@@ -129,6 +142,19 @@ Un registro descentralizado de miembros construido en la blockchain de Solana. C
 | `create_member` | Crea un nuevo perfil de miembro on-chain |
 | `update_member` | Actualiza nombre, rol y bio |
 | `delete_member` | Desactiva al miembro (active = false) |
+
+### 🔄 Flujo del programa
+```mermaid
+flowchart TD
+    A(Usuario con Wallet) --> B[initialize_registry]
+    B --> C[create_member]
+    C --> D{¿Quiere modificar?}
+    D -->|Sí| E[update_member]
+    D -->|No| F{¿Quiere salir?}
+    E --> F
+    F -->|Sí| G[delete_member]
+    F -->|No| C
+```
 
 ### Estructura de las cuentas
 
