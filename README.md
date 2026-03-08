@@ -76,7 +76,7 @@ pub struct MemberAccount {
 
 ### Why this project?
 
-H.E.R. DAO Venezuela is a community focused on women in tech and blockchain in Latin America. This registry is a proof of concept for managing community membership on-chain — transparent, permissionless, and owned by each member.
+H.E.R. DAO Venezuela 🇻🇪 is a community focused on women in tech and blockchain in Latin America. This registry is a proof of concept for managing community membership on-chain — transparent, permissionless, and owned by each member.
 
 ### 🗺️ Roadmap
 
